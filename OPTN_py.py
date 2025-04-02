@@ -236,7 +236,7 @@ def periodicitytest_adv(TS,delays = None):
     '''
     Returns int result of the periodicitytest.
     Results 0 and 1 indicate strict periodicity. Increasing values signify quasi periodicity, chaos and noise
-    in that order, where ~20 is a random time series.
+    in that order.
 
     Parameters:
     -----------
