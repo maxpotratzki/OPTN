@@ -1,4 +1,5 @@
 from scipy.interpolate import interp1d
+
 data = np.sin(np.arange(0,100,.001))
 print(len(data))
 data[10000:20000] = np.random.uniform(8,8.1,10000)
